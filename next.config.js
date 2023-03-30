@@ -8,6 +8,6 @@ const nextConfig = {
     config.experiments.topLevelAwait = true;
     return config;
   },
-}; 
+};  
 
 module.exports = nextConfig;

@@ -8,7 +8,7 @@ import {
   Text,
   Title,
   Box,
-  MediaQuery,
+  MediaQuery, 
   Burger,
   useMantineTheme,
 } from "@mantine/core";

@@ -9,7 +9,7 @@ export async function getServerSideProps({ params }) {
     dogByName({ name: params.name })
   );
 
-  return {
+  return { 
     props: {
       name: params.name,
       dehydratedState: dehydrate(queryClient),

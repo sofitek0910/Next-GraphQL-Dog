@@ -15,7 +15,7 @@ export async function getServerSideProps({ params }) {
       dehydratedState: dehydrate(queryClient),
     },
   };
-}
+} 
 
 const DogDetail: React.FunctionComponent<{
   name: string;

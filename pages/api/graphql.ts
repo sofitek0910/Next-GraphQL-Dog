@@ -13,7 +13,7 @@ const server = new ApolloServer({
 });
 
 export const config = {
-  api: {
+  api: { 
     bodyParser: false,
   },
 };

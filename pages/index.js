@@ -13,7 +13,7 @@ export async function getServerSideProps() {
       dehydratedState: dehydrate(queryClient),
     }, 
   };
-}
+} 
 
 export default function Home() {
   const { data } = useQuery(["dogs"], () => getDogs());

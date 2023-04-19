@@ -10,7 +10,7 @@ const schema = await buildSchema({
 
 const server = new ApolloServer({
   schema,
-});
+}); 
 
 export const config = {
   api: { 

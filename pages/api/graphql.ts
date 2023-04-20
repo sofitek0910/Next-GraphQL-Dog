@@ -14,7 +14,7 @@ const server = new ApolloServer({
 
 export const config = {
   api: { 
-    bodyParser: false,
+    bodyParser: false, 
   },
 };
 

@@ -6,7 +6,7 @@ import { DogsResolver } from "../../src/schema/dogs.resolver";
 
 const schema = await buildSchema({
   resolvers: [DogsResolver],
-});
+}); 
 
 const server = new ApolloServer({
   schema,

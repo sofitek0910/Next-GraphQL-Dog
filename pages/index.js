@@ -34,7 +34,7 @@ export default function Home() {
                   {f.sex.toLowerCase()} {f.breed.toLowerCase()}
                 </Text>
               </Card>
-            </Link>
+            </Link> 
           </Grid.Col>
         ))}
       </Grid>

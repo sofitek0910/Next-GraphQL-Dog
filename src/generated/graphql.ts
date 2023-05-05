@@ -13,7 +13,7 @@ export type Scalars = {
   Boolean: boolean;
   Int: number;
   Float: number;
-};
+}; 
 
 export type Dog = {
   __typename?: 'Dog';

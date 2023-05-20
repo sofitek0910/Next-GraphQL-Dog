@@ -74,7 +74,7 @@ export const DogByNameDocument = gql`
       key
       value
     }
-  }
+  }  
 }
     `;
 export const GetDogsDocument = gql`
